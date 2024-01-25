@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* shell */     
+#__next {  
+  max-width: 100%;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  user-select: none;
+}
+
+.error-message {
+  color: rgb(239, 98, 98);
+  padding-left: 10px;
+}
+.error-required {
+  color: rgb(11, 138, 108);
+  padding-left: 10px;
+}
+
+/* attendance popup */
+.container{
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.closeBtn{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container .footer{
+  /* flex: 20%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container .footer button {
+  width: 130px;
+  height: 35px;
+  margin: 20px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 19px;
+  cursor: pointer;
+
+}
+#cancelBtn {
+  background-color: crimson;
+}
+
+.success-message {
+  color: rgb(112, 239, 98);
+  padding-left: 10px;
+}
+
+.main-Container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-main-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.profileConatiner {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tranportation-main-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-container {
+  width: 100%;
+  height: 100vh;
+  background: #03D3D4 url(../assets/img/pattern.png) repeat-x;
+  align-items: center;
+}
+
+.mobile-homework-container {
+  width: 400px;
+  height: 100vh;
+  align-items: center;
+}
+
+.mobile-dashboard-container {
+  width: 400px;
+  height: 100vh;
+  align-items: center;
+}
+
+.mobile-profile-container {
+  width: 400px;
+  height: 100vh;
+  align-items: center;
+}
+
+.mobile-tranportation-container {
+  width: 400px;
+  height: 100vh;
+  align-items: center;
+}
+
+.bg-image {
+  width: 400px;
+  height: 50vh;
+  position: absolute;
+}
+
+.input-bt {
+  margin-top: 56px;
+}
+
+.icon-input {
+  position: absolute;
+  left: 39px;
+  top: 216px;
+  color: black;
+}
+
+/* .schoolIcon {
+  color: #0C9B9C;
+  width: 29px;
+  height: 48px;
+} */
+
+.icon-div {
+  background-color: #03D3D4;
+}
+
+.userIcon {
+  padding: 12px;
+  color: #0C9B9C;
+  width: 49px;
+  height: 49px;
+}
+
+.loading-icon {
+  color: #34efef;
+  font-size: 2rem;
+  animation: animate 3s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.file-wrapper {
+  position: relative;
+  background-color: #eaeaea;
+}
+
+.file-upload {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.file-wrapper input {
+  opacity: 0;
+}

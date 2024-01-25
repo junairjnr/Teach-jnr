@@ -1,0 +1,8 @@
+com/datastone/scholateacherce6ee4ff/DelegationService.java
+ com.datastone.scholateacherce6ee4ff.DelegationService
+com/datastone/scholateacherce6ee4ff/BuildConfig.java
+ com.datastone.scholateacherce6ee4ff.BuildConfig
+com/datastone/scholateacherce6ee4ff/LauncherActivity.java
+ com.datastone.scholateacherce6ee4ff.LauncherActivity
+com/datastone/scholateacherce6ee4ff/Application.java
+ com.datastone.scholateacherce6ee4ff.Application

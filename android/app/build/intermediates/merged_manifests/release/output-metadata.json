@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "com.datastone.scholateacherce6ee4ff",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 105,
+      "versionName": "105",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

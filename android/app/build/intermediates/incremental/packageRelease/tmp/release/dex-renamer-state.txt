@@ -1,0 +1,4 @@
+#Tue Aug 08 15:37:36 IST 2023
+base.0=/Users/jafer/Projects/apps/schola_teacher/schola_teacher/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

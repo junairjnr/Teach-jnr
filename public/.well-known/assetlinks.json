@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.datastone.scholateacherce6ee4ff",
+        "sha256_cert_fingerprints": ["E9:C3:28:A8:D3:45:06:5D:9C:D9:1E:B2:13:F2:EF:EE:22:DA:20:4E:55:CB:FB:54:8E:93:D7:CF:EA:80:26:B1"]
+      }
+    }]
